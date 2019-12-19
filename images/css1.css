@@ -1,0 +1,177 @@
+/* CSS Document */
+
+body {
+	background-color: #E2E2E2;
+}
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+/************* Layout utama ****************/
+#Table_01 {
+	position:absolute;
+	left:9%px;
+	right:9%;
+	top:10px;
+	width:930px;
+	height:600px;
+	background-color: #990000;
+}
+#layout-back-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:930px;
+	height:31px;
+}
+
+#layout-back-02 {
+	position:absolute;
+	left:0px;
+	top:31px;
+	width:23px;
+	height:538px;
+	background-image:url(layout-back_02.gif);
+	background-repeat:repeat-y;
+}
+
+#layout-back-03 {
+	position:absolute;
+	left:23px;
+	top:31px;
+	width:883px;
+	height:538px;
+	color:#990000;
+}
+
+#layout-back-04 {
+	position:absolute;
+	left:906px;
+	top:31px;
+	width:24px;
+	height:538px;
+	background-image:url(layout-back_04.gif);
+	background-repeat:repeat-y;
+}
+
+#layout-back-05 {
+	position:absolute;
+	left:0px;
+	top:569px;
+	width:930px;
+	height:31px;
+	background-image:url(layout-back_05.gif);
+	background-repeat:repeat-y;
+}
+#layout_footer {
+	position:absolute;
+	background-color:#E2E2E2;
+	top:600px;
+	right:0px;
+	width:500;
+	height:30px;
+	}
+#layout_footer_left {
+	position:absolute;
+	background-color:#E2E2E2;
+	top:600px;
+	left:3%;
+	width:200;
+	height:30px;
+	vertical-align:text-bottom;
+	}
+#layout_footer_center {
+	position:absolute;
+	background-color:#E2E2E2;
+	top:600px;
+	left:25%;
+	width:80px;
+	height:25px;
+	padding-top:8px;
+	}
+#layout_footer_center2 {
+	position:absolute;
+	background-color:#E2E2E2;
+	top:600px;
+	left:25%;
+	width:180px;
+	height:25px;
+	}
+/************* Background ****************/
+
+.bground_b{
+background-color:#990000;}
+			
+a.menu_nav{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:normal;
+	vertical-align:text-bottom;
+	
+	}
+a.menu_nav:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#ffff00;
+	font-size:11px;
+	font-weight:normal;
+	
+	}			
+a.menu_footer{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#990000;
+	font-size:10px;
+	font-weight:normal;
+	}
+a.menu_footer:hover, a.menu_footer:visited{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#0000FF;	
+	}		
+.menu_design_infongalam{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:10px;
+	font-weight:normal;
+	color:#990000;
+	vertical-align:middle;
+	width: 200px;
+	}	
+.tbl_menu {
+	background-color:#990000;
+	padding:0px;
+	bord0er-bottom-color:#FF0000;
+	bord0er-color:#FFFF00;
+	text-align:center;
+	height:30px;
+}
+.tbl_menu:hover,.tbl_menu:visited{
+	background-image:url(cw.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:0px;
+	text-align:center;
+	height:20px;
+	border-top:medium;
+	border-top:#000000;
+	height:30px;
+
+	}
+
+/************* globalNav styles ****************/
+
+.skipLinks {display: none;}

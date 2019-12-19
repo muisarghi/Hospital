@@ -1,0 +1,20 @@
+utk bagian keuangan Rekapitulasi keuangan dan laporan tabelaris,
+sy sudah coba dlm seminggu ini:
+kalo induk dr rekening dimasukkan tabel (Perawatabn Dewasa, Bayi Sehat, Rawat Jalan, dst), data nya tidak bisa dipanggil/ tdk spt di lembar rekapitulasi keuangan. tetapi no rekening tetap masuk tabel (100-perwt IA, dst).
+
+kalo no rekening (100 perwt IA, 200 Karcis, 300 Asisten) tapi induknya (I Perawatan A.DEwasa, II rawat jalan, dst) tidak dimasukkan tabel, data bisa dipanggil.
+
+gmn?
+
+
+utk laporan tabelaris
+
+utk cari jumlah hari di bulan dan tahun tertentu bisa, dan manggil tabel rekening jg bisa. 
+masalahnya tidak bisa dipanggil kalo tabel ke kanan (biasanya dipanggil tabel dari atas ke bawah). 
+kalo spt di lembar laporan tabelaris bisa dibuat spt itu, kalo rekeningnya diprogram (tidak dimasukkan database, jadi no rekening sudah ditentukan. yang dicatat di database cm transaksinya).
+jadi yang dipanggil transaksinya saja bukan tabel no rekening.
+
+kalo dibalik, tanggalnya yang dipanggil ke kanan dan rekening dipanggil ke bawah. tidak bisa. krn setiap bulan jumlah harinya berbeda. 
+
+solusinya, rekening dan transaksi rekening tetap dimasukkan tabel. utk tanggalnya, di set 31 semua. seandainya februari 2008, di tabelnya sampai 31 februari tapi nanti isinya 0 (kosong).
+gmn?

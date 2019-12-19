@@ -1,0 +1,26 @@
+1 pendapatan--
+draft pendapatan--
+deleted pendapatan--
+pendapatan--
+edit --> tambahkan status (Draft, Publish, delete)--
+
+2 pengeluaran--
+draft blm ada--
+deleted blm ada--
+pengeluaran kurang link ke draft dan deleted--
+
+tambahkan paging setiap menu pendapatan, draft, deleted--
+
+
+percobaan isi ke semua rekening
+upload
+revisi tabel rekap:
+- masing2 jumlah di row bawah sendiri
+- total keseluruhan
+- jika tdk ada transaksi nilainya 0 bukan kosong
+
+revisi tabel tabelaris
+
+
+tabelaris 
+jd 2, pdpt pklr

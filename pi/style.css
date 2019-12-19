@@ -1,0 +1,40 @@
+.headers{
+color: white;
+font: bold 110% verdana;
+background-color: #008000;
+padding: 2px;
+text-align: center;
+}
+
+.categorylinks{
+list-style-type: disk;
+/*list-style-image: url(heart000.png);*/
+margin: 5px auto 10px 18px;
+padding: 0;
+
+}
+
+.categorylinks li{
+padding-bottom: 1px;
+}
+
+.categorylinks li a{
+margin-left: -3px;
+padding: 3px 1px;
+font-size: 12px;
+display: block;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+/*border-bottom: 1px solid #ececec;*/
+}
+
+.categorylinks a:visited{
+color: #990000; 
+
+text-decoration: none;
+
+}
+
+.categorylinks a:hover {	
+color: #000000;	background: #DDDDDD; text-decoration: none; }

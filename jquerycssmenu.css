@@ -1,0 +1,75 @@
+.jquerycssmenu {
+background-color:#990000;
+}
+.jquerycssmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.jquerycssmenu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+}
+.jquerycssmenu ul li a {
+	display: block;
+	padding: 2px 7px 2px 7px;
+	margin-right: 4px;
+	border: 1px solid #770000;
+	border-bottom-width: 0;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #990000;
+}
+.jquerycssmenu ul li a:hover {
+	background: #C10005;
+	color: #FFFF00;
+}
+.jquerycssmenu ul li ul {
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+}
+.jquerycssmenu ul li ul li {
+	display: list-item;
+	float: none;
+}
+.jquerycssmenu ul li ul li ul {
+	top: 0;
+}
+.jquerycssmenu ul li ul li a {
+	width: 160px;
+	background: #990000;
+	color: yellow;
+	padding: 4px 5px;
+	margin: 0;
+	border-top-width: 0;
+	border-top: 1px solid #770000;
+}
+.jquerycssmenu ul li ul li a:hover {
+	background: #C10005;
+	color: #fff;
+}
+.downarrowclass {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+}
+.rightarrowclass {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+}
+*:first-child+html .jquerycssmenu {
+	height: 1%;
+}
+* html .jquerycssmenu{
+	height: 1%;
+}
+* html .jquerycssmenu ul li ul li a {
+	display: inline-block;
+}
